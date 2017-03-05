@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6728A6991E6C3E3900D2B900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6728A6981E6C3E3900D2B900 /* AppDelegate.swift */; };
+		6728A69B1E6C3E3900D2B900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6728A69A1E6C3E3900D2B900 /* ViewController.swift */; };
+		6728A69E1E6C3E3900D2B900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6728A69C1E6C3E3900D2B900 /* Main.storyboard */; };
+		6728A6A01E6C3E3900D2B900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6728A69F1E6C3E3900D2B900 /* Assets.xcassets */; };
+		6728A6A31E6C3E3900D2B900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6728A6A11E6C3E3900D2B900 /* LaunchScreen.storyboard */; };
+		6728A6AE1E6C3E3900D2B900 /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6728A6AD1E6C3E3900D2B900 /* ______Tests.swift */; };
+		6728A6B91E6C3E3900D2B900 /* ______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6728A6B81E6C3E3900D2B900 /* ______UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6728A6AA1E6C3E3900D2B900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6728A68D1E6C3E3800D2B900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6728A6941E6C3E3800D2B900;
+			remoteInfo = "美人魚多喝水";
+		};
+		6728A6B51E6C3E3900D2B900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6728A68D1E6C3E3800D2B900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6728A6941E6C3E3800D2B900;
+			remoteInfo = "美人魚多喝水";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6728A6951E6C3E3900D2B900 /* 美人魚多喝水.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "美人魚多喝水.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6728A6981E6C3E3900D2B900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6728A69A1E6C3E3900D2B900 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6728A69D1E6C3E3900D2B900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6728A69F1E6C3E3900D2B900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6728A6A21E6C3E3900D2B900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6728A6A41E6C3E3900D2B900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6728A6A91E6C3E3900D2B900 /* 美人魚多喝水Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "美人魚多喝水Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6728A6AD1E6C3E3900D2B900 /* ______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______Tests.swift"; sourceTree = "<group>"; };
+		6728A6AF1E6C3E3900D2B900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6728A6B41E6C3E3900D2B900 /* 美人魚多喝水UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "美人魚多喝水UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6728A6B81E6C3E3900D2B900 /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITests.swift"; sourceTree = "<group>"; };
+		6728A6BA1E6C3E3900D2B900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6728A6921E6C3E3800D2B900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6728A6A61E6C3E3900D2B900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6728A6B11E6C3E3900D2B900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6728A68C1E6C3E3800D2B900 = {
+			isa = PBXGroup;
+			children = (
+				6728A6971E6C3E3900D2B900 /* 美人魚多喝水 */,
+				6728A6AC1E6C3E3900D2B900 /* 美人魚多喝水Tests */,
+				6728A6B71E6C3E3900D2B900 /* 美人魚多喝水UITests */,
+				6728A6961E6C3E3900D2B900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6728A6961E6C3E3900D2B900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6728A6951E6C3E3900D2B900 /* 美人魚多喝水.app */,
+				6728A6A91E6C3E3900D2B900 /* 美人魚多喝水Tests.xctest */,
+				6728A6B41E6C3E3900D2B900 /* 美人魚多喝水UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6728A6971E6C3E3900D2B900 /* 美人魚多喝水 */ = {
+			isa = PBXGroup;
+			children = (
+				6728A6981E6C3E3900D2B900 /* AppDelegate.swift */,
+				6728A69A1E6C3E3900D2B900 /* ViewController.swift */,
+				6728A69C1E6C3E3900D2B900 /* Main.storyboard */,
+				6728A69F1E6C3E3900D2B900 /* Assets.xcassets */,
+				6728A6A11E6C3E3900D2B900 /* LaunchScreen.storyboard */,
+				6728A6A41E6C3E3900D2B900 /* Info.plist */,
+			);
+			path = "美人魚多喝水";
+			sourceTree = "<group>";
+		};
+		6728A6AC1E6C3E3900D2B900 /* 美人魚多喝水Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6728A6AD1E6C3E3900D2B900 /* ______Tests.swift */,
+				6728A6AF1E6C3E3900D2B900 /* Info.plist */,
+			);
+			path = "美人魚多喝水Tests";
+			sourceTree = "<group>";
+		};
+		6728A6B71E6C3E3900D2B900 /* 美人魚多喝水UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6728A6B81E6C3E3900D2B900 /* ______UITests.swift */,
+				6728A6BA1E6C3E3900D2B900 /* Info.plist */,
+			);
+			path = "美人魚多喝水UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6728A6941E6C3E3800D2B900 /* 美人魚多喝水 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6728A6BD1E6C3E3900D2B900 /* Build configuration list for PBXNativeTarget "美人魚多喝水" */;
+			buildPhases = (
+				6728A6911E6C3E3800D2B900 /* Sources */,
+				6728A6921E6C3E3800D2B900 /* Frameworks */,
+				6728A6931E6C3E3800D2B900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "美人魚多喝水";
+			productName = "美人魚多喝水";
+			productReference = 6728A6951E6C3E3900D2B900 /* 美人魚多喝水.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6728A6A81E6C3E3900D2B900 /* 美人魚多喝水Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6728A6C01E6C3E3900D2B900 /* Build configuration list for PBXNativeTarget "美人魚多喝水Tests" */;
+			buildPhases = (
+				6728A6A51E6C3E3900D2B900 /* Sources */,
+				6728A6A61E6C3E3900D2B900 /* Frameworks */,
+				6728A6A71E6C3E3900D2B900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6728A6AB1E6C3E3900D2B900 /* PBXTargetDependency */,
+			);
+			name = "美人魚多喝水Tests";
+			productName = "美人魚多喝水Tests";
+			productReference = 6728A6A91E6C3E3900D2B900 /* 美人魚多喝水Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6728A6B31E6C3E3900D2B900 /* 美人魚多喝水UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6728A6C31E6C3E3900D2B900 /* Build configuration list for PBXNativeTarget "美人魚多喝水UITests" */;
+			buildPhases = (
+				6728A6B01E6C3E3900D2B900 /* Sources */,
+				6728A6B11E6C3E3900D2B900 /* Frameworks */,
+				6728A6B21E6C3E3900D2B900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6728A6B61E6C3E3900D2B900 /* PBXTargetDependency */,
+			);
+			name = "美人魚多喝水UITests";
+			productName = "美人魚多喝水UITests";
+			productReference = 6728A6B41E6C3E3900D2B900 /* 美人魚多喝水UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6728A68D1E6C3E3800D2B900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "李佳昕";
+				TargetAttributes = {
+					6728A6941E6C3E3800D2B900 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6728A6A81E6C3E3900D2B900 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6728A6941E6C3E3800D2B900;
+					};
+					6728A6B31E6C3E3900D2B900 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6728A6941E6C3E3800D2B900;
+					};
+				};
+			};
+			buildConfigurationList = 6728A6901E6C3E3800D2B900 /* Build configuration list for PBXProject "美人魚多喝水" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6728A68C1E6C3E3800D2B900;
+			productRefGroup = 6728A6961E6C3E3900D2B900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6728A6941E6C3E3800D2B900 /* 美人魚多喝水 */,
+				6728A6A81E6C3E3900D2B900 /* 美人魚多喝水Tests */,
+				6728A6B31E6C3E3900D2B900 /* 美人魚多喝水UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6728A6931E6C3E3800D2B900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6728A6A31E6C3E3900D2B900 /* LaunchScreen.storyboard in Resources */,
+				6728A6A01E6C3E3900D2B900 /* Assets.xcassets in Resources */,
+				6728A69E1E6C3E3900D2B900 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6728A6A71E6C3E3900D2B900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6728A6B21E6C3E3900D2B900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6728A6911E6C3E3800D2B900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6728A69B1E6C3E3900D2B900 /* ViewController.swift in Sources */,
+				6728A6991E6C3E3900D2B900 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6728A6A51E6C3E3900D2B900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6728A6AE1E6C3E3900D2B900 /* ______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6728A6B01E6C3E3900D2B900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6728A6B91E6C3E3900D2B900 /* ______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6728A6AB1E6C3E3900D2B900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6728A6941E6C3E3800D2B900 /* 美人魚多喝水 */;
+			targetProxy = 6728A6AA1E6C3E3900D2B900 /* PBXContainerItemProxy */;
+		};
+		6728A6B61E6C3E3900D2B900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6728A6941E6C3E3800D2B900 /* 美人魚多喝水 */;
+			targetProxy = 6728A6B51E6C3E3900D2B900 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6728A69C1E6C3E3900D2B900 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6728A69D1E6C3E3900D2B900 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6728A6A11E6C3E3900D2B900 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6728A6A21E6C3E3900D2B900 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6728A6BB1E6C3E3900D2B900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6728A6BC1E6C3E3900D2B900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6728A6BE1E6C3E3900D2B900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "美人魚多喝水/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chiahsin.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6728A6BF1E6C3E3900D2B900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "美人魚多喝水/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chiahsin.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6728A6C11E6C3E3900D2B900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "美人魚多喝水Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chiahsin.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/美人魚多喝水.app/美人魚多喝水";
+			};
+			name = Debug;
+		};
+		6728A6C21E6C3E3900D2B900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "美人魚多喝水Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chiahsin.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/美人魚多喝水.app/美人魚多喝水";
+			};
+			name = Release;
+		};
+		6728A6C41E6C3E3900D2B900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "美人魚多喝水UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chiahsin.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "美人魚多喝水";
+			};
+			name = Debug;
+		};
+		6728A6C51E6C3E3900D2B900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "美人魚多喝水UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chiahsin.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "美人魚多喝水";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6728A6901E6C3E3800D2B900 /* Build configuration list for PBXProject "美人魚多喝水" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6728A6BB1E6C3E3900D2B900 /* Debug */,
+				6728A6BC1E6C3E3900D2B900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6728A6BD1E6C3E3900D2B900 /* Build configuration list for PBXNativeTarget "美人魚多喝水" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6728A6BE1E6C3E3900D2B900 /* Debug */,
+				6728A6BF1E6C3E3900D2B900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6728A6C01E6C3E3900D2B900 /* Build configuration list for PBXNativeTarget "美人魚多喝水Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6728A6C11E6C3E3900D2B900 /* Debug */,
+				6728A6C21E6C3E3900D2B900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6728A6C31E6C3E3900D2B900 /* Build configuration list for PBXNativeTarget "美人魚多喝水UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6728A6C41E6C3E3900D2B900 /* Debug */,
+				6728A6C51E6C3E3900D2B900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6728A68D1E6C3E3800D2B900 /* Project object */;
+}
