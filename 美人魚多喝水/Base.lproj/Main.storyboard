@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="v7h-hr-skh">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--My Mermaid-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="美人魚多喝水" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,171 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="美人魚00" translatesAutoresizingMaskIntoConstraints="NO" id="hjM-fB-A6G">
+                                <rect key="frame" x="0.0" y="64" width="384" height="573"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="美人魚02" translatesAutoresizingMaskIntoConstraints="NO" id="ID4-ou-05L">
+                                <rect key="frame" x="157" y="272" width="237" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="200c.c." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYQ-ko-yL1">
+                                <rect key="frame" x="49" y="148" width="276" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="你再不多喝點水，我都要乾掉了啦" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eRm-Ud-O8H">
+                                <rect key="frame" x="27" y="259" width="145" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="美人魚06" translatesAutoresizingMaskIntoConstraints="NO" id="l7k-2y-O51">
+                                <rect key="frame" x="142" y="476" width="91" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="今日飲水量" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="86T-KQ-b6S">
+                                <rect key="frame" x="113" y="91" width="149" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="My Mermaid" id="GOz-rT-y4v"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="2253.5999999999999" y="24.7376311844078"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pKX-8C-huk">
+            <objects>
+                <viewController id="lsi-Kh-0ha" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jQf-95-Lxt"/>
+                        <viewControllerLayoutGuide type="bottom" id="2ux-jf-eNT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pU6-SA-QpX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KMO-a9-LhS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hc4-wC-ahW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2254" y="761"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="O0X-JK-cy5">
+            <objects>
+                <viewController id="Ujt-BT-8Fz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="p8G-8e-mAC"/>
+                        <viewControllerLayoutGuide type="bottom" id="c3t-cY-6aS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qRe-AC-B4R">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oie-1z-J1o"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9u5-dd-zbR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3192.8000000000002" y="1485.6071964017992"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Nbu-BE-E9T">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="v7h-hr-skh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Gq6-ZH-lKo">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="yR0-pp-zdG" kind="relationship" relationship="viewControllers" id="o9Q-uX-YfR"/>
+                        <segue destination="7GF-GD-8DF" kind="relationship" relationship="viewControllers" id="xzk-f3-1yb"/>
+                        <segue destination="gmh-jF-GM3" kind="relationship" relationship="viewControllers" id="1GF-fQ-ku4"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KGn-q4-a8f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="514.39999999999998" y="24.7376311844078"/>
+        </scene>
+        <!--我的人魚-->
+        <scene sceneID="vHR-eI-yF8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yR0-pp-zdG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的人魚" image="heart-7" selectedImage="heart-7" id="3fu-t9-vn0"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="H4X-io-ZQM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="QcR-jZ-AlX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dZo-TT-56R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1453.5999999999999" y="24.7376311844078"/>
+        </scene>
+        <!--趨勢圖-->
+        <scene sceneID="DFd-i3-xAH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7GF-GD-8DF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="趨勢圖" image="connectivity-bar-7" id="tkZ-az-azh"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nJF-KK-8iZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lsi-Kh-0ha" kind="relationship" relationship="rootViewController" id="Kkm-hi-T5O"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oq4-IT-fQZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1487" y="761"/>
+        </scene>
+        <!--關於我-->
+        <scene sceneID="d7y-1n-TGH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gmh-jF-GM3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="1" title="關於我" image="emoticon-smile-7" selectedImage="emoticon-smile-7" id="IeC-0F-km0"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WLu-XU-8en">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Ujt-BT-8Fz" kind="relationship" relationship="rootViewController" id="sKG-HJ-8ov"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lCq-d2-fIR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2253.5999999999999" y="1485.6071964017992"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="connectivity-bar-7" width="30" height="30"/>
+        <image name="emoticon-smile-7" width="30" height="30"/>
+        <image name="heart-7" width="30" height="30"/>
+        <image name="美人魚00" width="240" height="400"/>
+        <image name="美人魚02" width="258" height="225"/>
+        <image name="美人魚06" width="279" height="201"/>
+    </resources>
 </document>
